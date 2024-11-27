@@ -1,0 +1,146 @@
+/* fonts family */
+
+:root {
+    --body-font : "Work Sans", sans-serif;
+    --bs-btn-font-family : "Work Sans", sans-serif;
+}
+
+/* fonts color */
+
+:root {
+    --bs-blue: #4BA1A7;
+    --bs-red: #F0756C;
+    --bs-orange: #F5E9E9;
+    --bs-yellow: #EFEAEA;
+    --bs-green: #F5F8F1;
+    --bs-teal: #EFE8EF;
+    --bs-cyan: #F3F3F3;
+    --bs-black: #111111; 
+    --bs-white: #FFFFFF;
+    --bs-gray: #777777; 
+    
+    --bs-link-color: #111111;
+    --bs-link-color-rgb: 17, 17, 17;
+    --bs-link-hover-color: #F0756C;
+    --bs-link-hover-color-rgb: 240, 117, 108;
+    
+    --bs-primary: #F0756C;
+    --bs-primary-rgb: 240, 117, 108;
+    --bs-body-color: #111111;   
+    --bs-info: #C3C3C3; 
+    --bs-light-text-emphasis: #c3c3c3;
+    
+    --swiper-pagination-color: #F0756C;
+}
+
+body , body  [data-bs-theme=light] {
+    --bs-blue: #4BA1A7;
+    --bs-red: #F0756C;
+    --bs-orange: #F5E9E9;
+    --bs-yellow: #EFEAEA;
+    --bs-green: #F5F8F1;
+    --bs-teal: #EFE8EF;
+    --bs-cyan: #F3F3F3;
+    --bs-black: #111111; 
+    --bs-white: #FFFFFF;
+    --bs-gray: #777777;   
+    --bs-info: #C3C3C3;
+}
+
+
+.bg-gray {
+    background-color: var(--bs-gray) !important;
+}
+
+.bg-yellow {
+    background-color: var(--bs-yellow) !important;
+}
+
+.bg-green {
+    background-color: var(--bs-green) !important;
+}
+
+.bg-teal {
+    background-color: var(--bs-teal) !important;
+}
+
+.navbar-nav a.nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+/* font size */
+h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+.display-1 {
+    font-size: calc(4.375rem + 4.5vw);
+    font-weight: 900 ;
+    font-family: var(--body-font); 
+    line-height: 80%;
+}
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+    font-weight: 700 ;
+}
+.p-6 {
+    padding: 4rem !important;
+}
+
+/* navbar */
+.navbar svg {
+    color: #111111;
+}
+
+/* banner color */
+
+.banner {
+    color: var(--bs-black);
+}
+
+/* line height */
+
+p.a {
+    line-height: 10%;
+}
+
+.lh-small {
+    line-height: 80%;
+}
+
+.ls-4 {
+    letter-spacing: 0.2rem;
+}
+
+
+/* paragraph color */
+.postf {
+    color: var(--bs-gray);
+}
+
+.postg {
+    color: var(--bs-info);
+}
+
+/* width of container */
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1460px;
+    }
+}
+
+
+.videoWeb{
+    aspect-ratio: 16/9;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
